@@ -91,9 +91,9 @@ mongo_uri: "mongodb://localhost:27017/your-database"
 - **Description:** login user.
 - **Request Body:**
 
-  ```json
-{
-  "email": "john.doe@example.com",
-  "password": "your_password"
-}
-```
+    ```json
+    {
+    "email": "john.doe@example.com",
+    "password": "your_password"
+    }
+    ```
