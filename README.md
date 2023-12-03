@@ -73,16 +73,18 @@ mongo_uri: "mongodb://localhost:27017/your-database"
     "email": "test@gmail.com",
     "Phone": "081690000",
     "User_type": "ADMIN"
-    }```
+    }
+    ```
      ```json
-  {
+    {
     "First_name": "maye",
     "Last_name": "Jayboss",
     "Password": "12345678",
     "email": "test@gmail.com",
     "Phone": "081690000",
     "User_type": "USER"
-    }```
+    }
+    ```
 ## login
 
 - **Endpoint:** `POST /users/login`
@@ -93,4 +95,5 @@ mongo_uri: "mongodb://localhost:27017/your-database"
 {
   "email": "john.doe@example.com",
   "password": "your_password"
-}```
+}
+```
